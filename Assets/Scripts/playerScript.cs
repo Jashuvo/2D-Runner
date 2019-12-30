@@ -27,6 +27,8 @@ public class playerScript : MonoBehaviour
         playerRigid.velocity = new Vector3(0, 0, 25);
     }
 
+
+
     
     private void OnTriggerEnter(Collider collsion)
     {
